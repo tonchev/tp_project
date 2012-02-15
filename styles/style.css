@@ -6,19 +6,24 @@
 
 header, footer, aside, nav, article {  
     display: block;  
-}  
-  
+}
 body {  
     margin: 0 auto;  
     width: 940px;  
     font: 13px/22px Helvetica, Arial, sans-serif;  
     background: #f0f0f0;  
-}  
+}
+h1 {
+    font-size:32px;
+    margin-top:40px;
+    margin-bottom:40px;
+    font-family:sans-serif;
+}
   
 h2 {  
     font-size: 28px;  
     line-height: 44px;  
-    padding: 22px 0;  
+    padding: 22px 0; 
 }  
   
 h3 {  
@@ -64,7 +69,70 @@ nav ul li {
         nav ul li.selected a {  
             color: #fff;  
         }  
-  
-     
+footer {
+position: absolute;
+left: 0;
+width: 100%;
+background: #222;
+}
+footer div {
+display: table;
+margin: 0 auto;
+padding: 44px 0;
+width: 940px;
+color: #777;
+}
+footer div section {
+display: table-cell;
+width: 300px;
+}
+footer div #about, footer div #blogroll {
+padding-right: 20px;
+}
+p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+padding-bottom: 22px;
+}  
+footer a {
+color: #999;
+}
+footer a:hover{
+    color:white;
+    text-decoration:none;
+}
+a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+footer h3 {
+color: white;
+margin-left:45px;
+}
+footer ul {
+margin: 0 0 0 40px;
+list-style: square;
+color: #565656;
+}
+#about h3{
+    margin-left:0px;
+}    
+#content {
+display: table;
 
+}
+#mainContent {
+display: table-cell;
+width: 620px;
+padding-right: 22px;
+}
+aside {
+display: table-cell;
+width: 300px;
+background: url("images/sidebar_background.png") top left;
+}
 
